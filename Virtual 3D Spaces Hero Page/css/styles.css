@@ -1,0 +1,142 @@
+.body{
+    background-image: linear-gradient(-45deg, #663366, #d85c9a);
+    background-color: #d85c9a;
+    color: #ffffff;
+}
+
+
+/* nav-bar styling */
+
+li{
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+.li :hover{
+    color: #fd89c3;
+}
+
+
+.logo{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo :hover{
+    color: #ffe4c4;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.products{
+   margin-right: 30px;
+   text-decoration: none;
+   color: #ffffff;
+
+}
+
+
+.services{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about-us{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.career{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-us{
+    margin-right: 70px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* headline message styling */
+.row{
+    width:fit-content;
+}
+
+
+h1{
+    font-weight: bold;
+    margin-left: 50px;
+    padding-top: 90px;
+}
+
+
+
+.cta-button{
+    border: solid 0.2px #cc6699;
+    background-color: #cc3399;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+
+}
+
+.cta-button :hover{
+    color: #fd89c3;
+}
+
+.cta-button-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.hero-img{
+    width: 34rem;
+    margin-right: 1rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+
+}
+
+
+.man-vr{
+    width: 8rem;
+    margin-left: -40px;
+    margin-top: 6rem;
+}
+
+.lady-vr{
+    width: 8rem;
+    margin-top: 3rem;
+    margin-left: 25px;
+}
+
+.vector-img-2{
+    width: 36px;
+    margin-bottom: 10rem;
+    margin-left: -2rem;
+}
+
+.selling-point{
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: -2rem;
+}
