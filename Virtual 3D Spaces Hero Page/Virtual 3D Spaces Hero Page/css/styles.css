@@ -1,0 +1,463 @@
+.body{
+    background-image: linear-gradient(-45deg, #663366, #d85c9a);
+    background-color: #d85c9a;
+    color: #ffffff;
+}
+
+.container{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+/* nav-bar styling */
+
+li{
+    list-style: none;
+    font-size: 12px;
+    
+}
+
+.li :hover{
+    color: #fd89c3;
+}
+
+
+.logo{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo :hover{
+    color: #ffe4c4;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.products{
+   margin-right: 30px;
+   text-decoration: none;
+   color: #ffffff;
+
+}
+
+
+.services{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about-us{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.career{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-us{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* headline message styling */
+
+
+
+#h1{
+    font-weight: bold;
+    
+    padding-top: 80px;
+    animation: blink 0.75s step-end infinite;
+}
+
+
+
+.cta-button{
+    border: solid 0.2px #cc6699;
+    background-color: #cc3399;
+    border-radius: 100px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+
+}
+
+.cta-button :hover{
+    color: #fd89c3;
+}
+
+.cta-button-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.hero-img{
+    width: 34rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+
+}
+
+
+.man-vr{
+    width: 8rem;
+    margin-left: -40px;
+    margin-top: 6rem;
+}
+
+.lady-vr{
+    width: 8rem;
+    margin-top: 3rem;
+    margin-left: -25px;
+}
+
+.vector-img-2{
+    width: 36px;
+    margin-bottom: 10rem;
+    margin-left: -2rem;
+}
+
+.selling-point{
+    font-size: 10px;
+    margin-top: -2rem;
+}
+
+
+/* medium desktop view */
+
+@media (max-width: 1100px){
+    .logo{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .li{
+        font-size: 9px;
+    }
+    
+    .hero-img{
+        width: 26rem;
+        margin: 0;
+        
+    }
+
+    #h1{
+        font-size: 24px;
+        padding-top: 30px;
+        
+    }
+
+    .cta-button{
+        
+        margin-top: 24px;
+        padding-top: 9px;
+        padding-right: 18px;
+        padding-left: 18px;
+        padding-bottom: 9px;
+        color: #ffffff;
+        font-size: 16px;
+
+    }
+
+
+    .lady-vr{
+        width: 8rem;
+        margin-top: 2rem;
+        margin-left: -24px;
+    }
+
+    .man-vr{
+        width: 8rem;
+        margin-top: 85px;
+        margin-left: -45;
+    }
+
+    .vector-img-2{
+        width: 2rem;
+        margin-top: -5rem;
+        margin-left: -2rem;
+    }
+
+    .selling-point{
+        font-size: 9px;
+        margin-top: -2rem;
+    }
+
+    .container-2{
+        margin-top: 2.5rem;
+    }
+    
+}
+
+
+
+
+
+/* laptop size view */
+@media (max-width: 960px){
+    .logo{
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .li{
+        font-size: 9px;
+    }
+    
+    .hero-img{
+        width: 24rem;
+        margin: 0;
+        
+    }
+
+    #h1{
+        font-size: 18px;
+        padding-top: 40px;
+        
+    }
+
+    .cta-button{
+        
+        margin-top: 24px;
+        padding-top: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+        color: #ffffff;
+        font-size: 16px;
+
+    }
+
+
+    .lady-vr{
+        width: 8rem;
+        margin-top: 2rem;
+        margin-left: -24px;
+    }
+
+    .man-vr{
+        width: 8rem;
+        margin-top: 84px;
+        margin-left: -40px;
+    }
+
+    .vector-img-2{
+        width: 2.2rem;
+        margin-top: -5rem;
+        margin-left: -3rem;
+    }
+
+    .selling-point{
+        font-size: 10px;
+        margin-top: -1.5rem;
+    }
+
+    .container-2{
+        margin-top: 4rem;
+    }
+    
+}
+
+
+
+/*mini laptop size view */
+
+@media (max-width: 820px){
+
+    .logo{
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .li{
+        font-size: 8px;
+    }
+
+    .products{
+        margin-right: 20px;
+    
+     }
+     
+     
+     .services{
+         margin-right: 20px;
+
+     }
+     
+     .about-us{
+         margin-right: 20px;
+     }
+     
+     .career{
+         margin-right: 20px;
+     }
+
+     .contact-us{
+      margin-left: -10px;
+    }
+     
+    
+    .hero-img{
+        width: 18rem;
+        margin: 0;
+    }
+
+    #h1{
+        font-size: 18px;
+        padding-top: 45px;
+
+    }
+
+    .cta-button{
+        
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        font-size: 11px;
+    
+    }
+
+
+    .lady-vr{
+        width: 5rem;
+        margin-top: 2rem;
+        margin-left: -12px;
+    }
+
+    .man-vr{
+        width: 5rem;
+        margin-top: 62px;
+        margin-left: -20px;
+    }
+
+    .vector-img-2{
+        width: 1.5rem;
+        margin-top: 0;
+    }
+
+    .selling-point{
+        font-size: 8px;
+        margin-top: -3rem;
+    }
+
+    .container-2{
+        margin-top: 0;
+    }
+    
+}
+
+
+
+
+
+/* Tablet size view */
+
+@media (max-width: 720px){
+
+    .logo{
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .li{
+        font-size: 7px;
+    }
+
+    .products{
+        margin-right: 20px;
+        
+    
+     }
+    
+     .services{
+         margin-right: 20px;
+
+     }
+     
+     .about-us{
+         margin-right: 20px;
+     } 
+     
+     .career{
+         margin-right: 20px;
+     }
+
+     .contact-us{
+      margin-left: -10px;
+    }
+     
+    
+    .hero-img{
+        width: 15rem;
+        margin: 0;
+    }
+
+    #h1{
+        font-size: 13px;
+        padding-top: 50px;
+
+    }
+
+    .cta-button{
+        
+        margin-top: 20px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-bottom: 4px;
+        font-size: 10px;
+    
+    }
+
+
+    .lady-vr{
+        width: 4rem;
+        margin-top: 1.5rem;
+        margin-left: -12px;
+    }
+
+    .man-vr{
+        width: 4rem;
+        margin-top: 48px;
+        margin-left: -20px;
+    }
+
+    .vector-img-2{
+        width: 1.5rem;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .selling-point{
+        font-size: 7px;
+        margin-top: -3.4rem;
+    }
+
+    .container-2{
+        margin: 0;
+    }
+    
+}
